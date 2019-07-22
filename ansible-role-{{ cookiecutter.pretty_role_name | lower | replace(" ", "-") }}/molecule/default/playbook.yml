@@ -1,0 +1,6 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - hadrienpatte.{{ cookiecutter.pretty_role_name | lower | replace(" ", "_") }}
+...

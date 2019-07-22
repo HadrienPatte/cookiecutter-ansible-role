@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  role_name: {{ cookiecutter.pretty_role_name | lower | replace(" ", "_") }}
+  author: Hadrien Patte
+  company: ""
+  description: {{ cookiecutter.short_description }}
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions: all
+  galaxy_tags: []
+
+dependencies: []
+...

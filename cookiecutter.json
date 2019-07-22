@@ -1,0 +1,8 @@
+{
+  "pretty_role_name": "My Role",
+  "long_description": "An Ansible Role that ...",
+  "short_description": "Install and configure ...",
+  "_copy_without_render": [
+    "*.j2"
+  ]
+}
