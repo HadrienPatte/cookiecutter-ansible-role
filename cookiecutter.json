@@ -1,5 +1,7 @@
 {
   "pretty_role_name": "My Role",
+  "hyphenated_role_name": "{{ cookiecutter.pretty_role_name | lower | replace(' ', '-') }}",
+  "underscored_role_name": "{{ cookiecutter.pretty_role_name | lower | replace(' ', '_') }}",
   "long_description": "An Ansible Role that ...",
   "short_description": "Install and configure ...",
   "year": "{% now 'utc', '%Y' %}",

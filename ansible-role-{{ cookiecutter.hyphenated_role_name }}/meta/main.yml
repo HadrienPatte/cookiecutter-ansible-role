@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  role_name: {{ cookiecutter.pretty_role_name | lower | replace(" ", "_") }}
+  role_name: {{ cookiecutter.underscored_role_name }}
   author: Hadrien Patte
   company: ""
   description: {{ cookiecutter.short_description }}

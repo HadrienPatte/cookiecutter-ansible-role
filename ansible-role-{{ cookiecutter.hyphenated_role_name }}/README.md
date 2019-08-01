@@ -1,6 +1,6 @@
 # Ansible Role: {{ cookiecutter.pretty_role_name }}
 
-[![Build Status](https://travis-ci.com/HadrienPatte/ansible-role-{{ cookiecutter.pretty_role_name | lower | replace(" ", "-") }}.svg?branch=master)](https://travis-ci.com/HadrienPatte/ansible-role-{{ cookiecutter.pretty_role_name | lower | replace(" ", "-") }})
+[![Build Status](https://travis-ci.com/HadrienPatte/ansible-role-{{ cookiecutter.hyphenated_role_name }}.svg?branch=master)](https://travis-ci.com/HadrienPatte/ansible-role-{{ cookiecutter.hyphenated_role_name }})
 
 {{ cookiecutter.long_description }}
 
@@ -22,7 +22,7 @@ None.
 - name: {{ cookiecutter.short_description }}
   hosts: all
   roles:
-    - hadrienpatte.{{ cookiecutter.pretty_role_name | lower | replace(" ", "_") }}
+    - hadrienpatte.{{ cookiecutter.underscored_role_name }}
 ```
 
 ## License
