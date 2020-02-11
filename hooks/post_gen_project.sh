@@ -13,7 +13,7 @@ then
     then
         echo "Hub is not installed. You'll need to create the GitHub repository manually." >&2
     else
-        hub create -p "HadrienPatte/ansible-role-{{ cookiecutter.hyphenated_role_name }}"
+        hub create -d "Ansible Role - {{ pretty_role_name }}" -h https://galaxy.ansible.com/hadrienpatte/{{ cookiecutter.underscored_role_name }} "HadrienPatte/ansible-role-{{ cookiecutter.hyphenated_role_name }}"
         git push -u origin master
     fi
 fi
